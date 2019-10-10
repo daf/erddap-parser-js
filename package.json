@@ -19,6 +19,7 @@
     "test": "tap test",
     "cover": "tap test/*.js --cov --coverage-report=lcov",
     "prepare": "npm run test",
+    "install": "npm run build",
     "postpublish": "zip -j build/erddap-parser.zip -- LICENSE README.md build/erddap-parser.js"
   },
   "devDependencies": {
